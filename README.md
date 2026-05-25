@@ -5,3 +5,20 @@
 |---|---|---|
 |---|---|---|
 |---|---|---|
+
+# Compilación y ejecución
+
+## Requisitos
+
+Tener instalado:
+
+- g++
+- MSYS2 (Windows)
+
+## Compilar el proyecto
+en la carpeta model 
+cd "./model"
+```bash
+g++ main.cpp Board.cpp AlphaBeta.cpp -o juego.exe
+```
+se debe añadir cada .cpp nuevo en el comando
