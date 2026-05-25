@@ -10,8 +10,7 @@ const int INF = 1000000;
 int evaluateBoard(const Board& b) {
 
     // -------------------------------
-    // Aquí puedes mejorar la heurística
-    // después
+    // Aquí se mejora la heurística 
     // -------------------------------
 
     int player1Score = b.pits[6];
@@ -191,7 +190,7 @@ int getBestMove(Board b,
     int bestValue = -INF;
 
     // --------------------------------
-    // Aquí después puedes agregar
+    // Aquí se debe agregar
     // OpenMP:
     //
     // #pragma omp parallel for
